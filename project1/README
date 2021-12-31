@@ -1,0 +1,19 @@
+make 명령어를 수행해서 gcc를 한 후에
+./20171669.out 명령어로 프로그램을 수행시킵니다.
+
+실행되는 명령어의 종류로는
+h[elp],d[ir],du[mp] [start address] [, end address],e[dit] address, value
+hi[story], f[ill] start address, end address, value
+reset, opcodelist, opcode mneonic(명령어), q[uit] 가 존재합니다.
+명령어는 최대 100자리까지 입력이 가능하다.
+
+각각의 명령어들은 탭과 띄어쓰기가 있어도 명령어로 읽히며
+수행한 명령어들은 linked list의 방식으로 저장되어서
+hi[story]명령어를 수행하면 그동안 입력한 명령어들을 볼 수 있습니다.
+물론 기능을 하지 않은 잘못된 명령어들은 저장되지 않습니다.
+이때, 탭과 띄어쓰기 혹은 16진수로 주소나 값을 입력할 때 linked list에는
+정석적인 명령어의 형태로 저장됩니다.
+(16진수의 경우 소문자로 입력 된 것들은 대문자로 저장됩니다.)
+
+프로그램의 종료는 명령어 q[uit]을 통해서만 가능합니다.
+
