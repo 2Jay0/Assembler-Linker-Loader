@@ -1,8 +1,8 @@
-# SIC-XE-Machine
-SIC-XE machine project
+# Assembler, Linker, Loader
+SIC-XE machine based Assembler, Linker, Loader
 
 ## Duration
-> 2021.03. ~ 2021.6.
+> 2021.03. ~ 2021.06.
 
 ## About Project
 ### Project 1. Shell
