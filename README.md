@@ -13,3 +13,6 @@ SIC-XE machine based Assembler, Linker, Loader
 ### Project 3. Linker & Loader
 > 프로젝트 1, 2에서 구현한 쉘(shell)에 linking과 loading 기능을 추가하는 프로그램을 생성
 > 프로젝트 2에서 구현된 assemble 명령을 통해 생성된 object 파일을 link시켜 메모리에 올리는 작업을 수행하는 프로그램
+
+## Technology Stack
+C, Data Structure(linked list), Hash
